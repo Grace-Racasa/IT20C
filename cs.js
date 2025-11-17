@@ -29,3 +29,17 @@ console.log("1")
 computeGrade(85);
 
 
+
+function login(username, password){
+    if(username === "grace"){
+        console.log("user recognized");
+        if(password ===1234){
+            console.log("Welcome user");
+}else{
+    console.log("Invalid user");
+}
+    }
+}
+
+login("grace",123);
+
