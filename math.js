@@ -17,3 +17,10 @@ function prod(num1,num2){
     prod= num1 * num2;
       console.log(prod);
 }
+
+quotient(2,3);
+function quotient(num1,num2){
+    quotient= num1 / num2;
+      console.log(quotient);
+}
+
