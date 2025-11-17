@@ -24,3 +24,8 @@ function quotient(num1,num2){
       console.log(quotient);
 }
 
+modulus(2,3);
+function modulus(num1,num2){
+    modulus= num1 % num2;
+      console.log(modulus);
+}
