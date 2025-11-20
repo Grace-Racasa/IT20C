@@ -35,8 +35,8 @@ arr = [1, 2, 3];
 output = " ";
 index = 0;
 
-while(index <= arr.length){ // as long as true sya mo loop sya 
-    output += index + " ";
+while(index <= arr.length-1){ // as long as true sya mo loop sya 
+    output += arr[index] + " ";
     index++;
 }
 
